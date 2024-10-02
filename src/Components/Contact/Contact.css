@@ -1,0 +1,138 @@
+.contact-container {
+  overflow: hidden;
+  background: #1a1a1a;
+  color: #ffffff;
+  padding: 60px 20px 20px 20px; /* Add padding for smaller screens */
+}
+
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto; /* Adjust margins for smaller screens */
+  align-items: center;
+}
+
+.title {
+  height: auto;
+  margin-bottom: 20px; /* Adjust spacing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem; /* Responsive font size */
+}
+
+.contact-wrap .form-wrap {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.contact-wrap .form-wrap form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto; /* Let the height adjust automatically */
+}
+
+.contact-wrap .form-wrap button {
+  display: flex;
+  margin: 15px auto;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+  border: solid 2px white;
+  color: #ffffff;
+  background: none;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.contact-wrap .form-wrap button:hover {
+  color: #000000;
+  background: #ffffff;
+  transition: 0.2s ease-in-out;
+}
+
+.contact-wrap .form-wrap form input {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+}
+.contact-wrap .form-wrap form #name {
+  text-transform: capitalize;
+}
+
+.contact-wrap .form-wrap form textarea {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+  height: 100px; /* Adjust height for better spacing */
+}
+
+.contact-wrap .form-wrap form label {
+  margin-left: 5px;
+}
+
+.contact-wrap small {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Media Queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .contact-wrap {
+    margin: 30px auto;
+  }
+
+  .contact-wrap .form-wrap {
+    width: 90%; /* Reduce width for tablets and smaller screens */
+  }
+
+  .title {
+    font-size: 1.3rem; /* Slightly smaller font size */
+  }
+
+  .contact-wrap .form-wrap button {
+    width: 90px;
+    height: 35px;
+  }
+
+  .contact-wrap small {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-wrap .form-wrap {
+    width: 100%; /* Full width for mobile */
+  }
+
+  .title {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+
+  .contact-wrap .form-wrap button {
+    width: 110px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .contact-wrap small {
+    font-size: 0.8rem;
+  }
+}

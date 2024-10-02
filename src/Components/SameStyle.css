@@ -1,0 +1,11 @@
+#div {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  color: #000000;
+  background: #ffffff;
+  transition: 0.3s ease-in-out;
+}
