@@ -14,7 +14,7 @@ import { SiCanva } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-import { GrMysql } from "react-icons/gr";
+import { SiAdobephotoshop } from "react-icons/si";
 
 const Homepage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -64,7 +64,7 @@ const Homepage = () => {
                 <p>A Frontend Web Developer and a UX Designer.</p>
                 <div className="resume-container">
                   <a
-                    href="/Julex_Jones_Resume.pdf"
+                    href="/julxx-portfolio/Julex_Jones_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -130,13 +130,13 @@ const Homepage = () => {
                   </div>
                   <div className="grid-item-two">
                     {" "}
-                    <GrMysql className="s-icon" />
-                    MySQL
+                    <BsGit className="s-icon" />
+                    Git
                   </div>
                   <div className="grid-item-two">
                     {" "}
-                    <BsGit className="s-icon" />
-                    Git
+                    <SiAdobephotoshop className="s-icon" />
+                    Photoshop
                   </div>
                 </div>
               </div>

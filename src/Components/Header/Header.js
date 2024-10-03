@@ -16,7 +16,11 @@ const Header = () => {
         <div className="nav-content">
           <ul>
             <li>
-              <a href="/" className="menu-item" title="Go to Home?">
+              <a
+                href="/julxx-portfolio/#"
+                className="menu-item"
+                title="Go to Home?"
+              >
                 <img
                   className="logo"
                   src={require("../../assets/JJ-LOGO.png")}
@@ -27,13 +31,17 @@ const Header = () => {
           </ul>
           <ul className="desktop-menu">
             <li>
-              <a href="/" className="menu-item" title="Go to Home?">
+              <a
+                href="/julxx-portfolio/#"
+                className="menu-item"
+                title="Go to Home?"
+              >
                 Home
               </a>
             </li>
             <li>
               <a
-                href="/projects"
+                href="/julxx-portfolio/#/projects"
                 className="menu-item"
                 title="Go to see My Projects?"
               >
@@ -42,7 +50,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="/contact"
+                href="/julxx-portfolio/#/contact"
                 className="menu-item"
                 title="Go to Contact me?"
               >

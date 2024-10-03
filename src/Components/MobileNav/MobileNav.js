@@ -13,17 +13,17 @@ const MobileNav = ({ isOpen, onClose }) => {
         />
         <ul>
           <li>
-            <a href="/" className="menu-item">
+            <a href="#" className="menu-item">
               Home
             </a>
           </li>
           <li>
-            <a href="/projects" className="menu-item">
+            <a href="#/projects" className="menu-item">
               Projects
             </a>
           </li>
           <li>
-            <a href="/contact" className="menu-item">
+            <a href="#/contact" className="menu-item">
               Contact
             </a>
           </li>
