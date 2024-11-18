@@ -61,10 +61,10 @@ const Homepage = () => {
             <div className="aboutme-container">
               <div className="aboutme-information">
                 <h1>Hello there, I'm Julex Jones!</h1>
-                <p>A Frontend Web Developer and a UX Designer.</p>
+                <p>A Frontend Web Developer.</p>
                 <div className="resume-container">
                   <a
-                    href="/julxx-portfolio/Julex_Jones_Resume.pdf"
+                    href="/julxx-portfolio/Julex_Jones_Severo_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
