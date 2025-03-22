@@ -4,6 +4,7 @@ import "../SameStyle.css";
 import Swal from "sweetalert2";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { GrSend } from "react-icons/gr";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -66,7 +67,7 @@ const Contact = () => {
       <main className="contact-container">
         <div className="contact-wrap">
           <div className="title">
-            <h1>Beep Me Up.</h1>
+            <h1>Beep me up!</h1>
           </div>
           <div className="form-wrap">
             <form onSubmit={onSubmit}>
@@ -105,7 +106,7 @@ const Contact = () => {
                 onChange={handleMessageChange} // Handles message capitalization
                 required
               ></textarea>
-              <button type="submit">Send Message</button>
+              <button type="submit">Send <GrSend/> </button>
             </form>
           </div>
           <small>

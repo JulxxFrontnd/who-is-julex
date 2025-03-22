@@ -7,13 +7,14 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
-import { SiCsharp } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 import { FaFigma } from "react-icons/fa";
 import { SiCanva } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa";
+import { FaElementor } from "react-icons/fa6";
+import { FaAnglesUp } from "react-icons/fa6";
+// import { SiMongodb } from "react-icons/si";
+// import { FaNodeJs } from "react-icons/fa";
 import { SiAdobephotoshop } from "react-icons/si";
 
 const Homepage = () => {
@@ -79,6 +80,14 @@ const Homepage = () => {
               <div className="skills-box">
                 <div className="grid-container">
                   <div className="grid-item">
+                    <FaWordpress className="s-icon" />
+                    Wordpress
+                  </div>
+                  <div className="grid-item">
+                    <FaElementor className="s-icon" />
+                    Elementor
+                  </div>
+                  <div className="grid-item">
                     <FaHtml5 className="s-icon" />
                     HTML
                   </div>
@@ -94,14 +103,6 @@ const Homepage = () => {
                     <FaReact className="s-icon" />
                     React
                   </div>
-                  <div className="grid-item">
-                    <FaFigma className="s-icon" />
-                    Figma
-                  </div>
-                  <div className="grid-item">
-                    <SiCanva className="s-icon" />
-                    Canva
-                  </div>
                 </div>
               </div>
               <div className="skills-box-two">
@@ -109,16 +110,7 @@ const Homepage = () => {
                   I'm also knowledgeable with these
                 </label>
                 <div className="grid-container-two">
-                  <div className="grid-item-two">
-                    <SiCsharp className="s-icon" />
-                    C#
-                  </div>
-                  <div className="grid-item-two">
-                    {" "}
-                    <FaJava className="s-icon" />
-                    Java
-                  </div>
-                  <div className="grid-item-two">
+                  {/* <div className="grid-item-two">
                     {" "}
                     <SiMongodb className="s-icon" />
                     MongoDB
@@ -127,7 +119,7 @@ const Homepage = () => {
                     {" "}
                     <FaNodeJs className="s-icon" />
                     NodeJS
-                  </div>
+                  </div> */}
                   <div className="grid-item-two">
                     {" "}
                     <BsGit className="s-icon" />
@@ -138,6 +130,14 @@ const Homepage = () => {
                     <SiAdobephotoshop className="s-icon" />
                     Photoshop
                   </div>
+                  <div className="grid-item-two">
+                    <SiCanva className="s-icon" />
+                    Canva
+                  </div>
+                  <div className="grid-item-two">
+                    <FaFigma className="s-icon" />
+                    Figma
+                  </div>
                 </div>
               </div>
             </div>
@@ -147,9 +147,9 @@ const Homepage = () => {
               <div></div>
             </div> */}
 
-            <button className="goto-top" onClick={scrollToTop}>
-              Back To Top
-            </button>
+            <div className="goto-top" onClick={scrollToTop}>
+              <FaAnglesUp className="up-icon"/>
+            </div>
           </div>
         </div>
       </main>

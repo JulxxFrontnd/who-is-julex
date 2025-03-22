@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="low-foot-container">
-        <p>© 2024 | Made by Julex Jones</p>
+        <p>© 2025 | Julex Jones</p>
       </div>
     </footer>
   );
