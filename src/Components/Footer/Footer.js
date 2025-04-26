@@ -36,7 +36,7 @@ const Footer = () => {
               <RiGithubFill />
             </a>
             <a
-              href="/julxx-portfolio/#/contact"
+              href="/who-is-julex/#/contact"
               className="links"
               title="Contact Me"
             >

@@ -17,7 +17,7 @@ const Header = () => {
           <ul>
             <li>
               <a
-                href="/julxx-portfolio/#"
+                href="/who-is-julex/#"
                 className="menu-item"
                 title="Go to Home?"
               >
@@ -32,7 +32,7 @@ const Header = () => {
           <ul className="desktop-menu">
             <li>
               <a
-                href="/julxx-portfolio/#"
+                href="/who-is-julex/#"
                 className="menu-item"
                 title="Go to Home?"
               >
@@ -41,7 +41,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="/julxx-portfolio/#/projects"
+                href="/who-is-julex/#/projects"
                 className="menu-item"
                 title="Go to see My Projects?"
               >
@@ -50,7 +50,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="/julxx-portfolio/#/contact"
+                href="/who-is-julex/#/contact"
                 className="menu-item"
                 title="Go to Contact me?"
               >
